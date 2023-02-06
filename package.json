@@ -1,6 +1,6 @@
 {
   "name": "@ianlewis/byob-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Predicate type declarations and helpers",
   "keywords": [],
   "author": "Ian Lewis",
@@ -19,8 +19,15 @@
     "all": "npm ci && npm run format && npm run lint && npm run build && npm run package",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
   "devDependencies": {
     "typescript": "^4.8.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianlewis/byob-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ianlewis/byob-test/issues"
+  },
+  "homepage": "https://github.com/ianlewis/byob-test#readme"
 }
