@@ -50,7 +50,7 @@ jobs:
         id: hash
         run: |
           TARBALL=$(npm pack .)
-          HASHES=$(sha256sum * | base64 -w0)
+          HASHES=$(sha256sum *.tgz | base64 -w0)
           npm publish ${TARBALL} --access public
           echo "hashes=$HASHES" >> "$GITHUB_OUTPUT"
         env:
