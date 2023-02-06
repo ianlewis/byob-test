@@ -1,6 +1,6 @@
 {
   "name": "@ianlewis/byob-test",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Predicate type declarations and helpers",
   "keywords": [],
   "author": "Ian Lewis",
