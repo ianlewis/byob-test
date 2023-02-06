@@ -11,6 +11,6 @@ jobs:
       actions: read # To read the workflow path.
       id-token: write # To sign the provenance.
       contents: write # To add assets to a release.
-    uses: .github/workflows/node_build_slsa3.yml
+    uses: ./.github/workflows/node_build_slsa3.yml
     secrets:
       node_auth_token: ${{ secrets.NPM_TOKEN }}
